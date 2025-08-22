@@ -17,8 +17,8 @@ return new class extends Migration
             $table->integer('stock');
             $table->decimal('price',20,2);
             $table->string('barcode')->unique();
-            $table->timestamp();
-            
+            $table->timestamps();
+
         });
     }
 
